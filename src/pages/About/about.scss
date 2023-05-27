@@ -1,0 +1,50 @@
+.about {
+	height: 100vh;
+}
+.about__box {
+	height: 100vh;
+	align-items: center;
+	display: flex;
+	margin: auto;
+	width: 90%;
+	justify-content: space-around;
+}
+.about__photo {
+	height: 15rem;
+	width: auto;
+	border-radius: 50%;
+	background-color: rgb(7, 197, 250);
+	// border: 2px solid rgb(20,158,202);
+	margin-right: 50px;
+}
+.about__presentation {
+	display: flex;
+	flex-direction: column;
+
+}
+.about__title {
+	font-size: 1.5em;
+	font-weight: bold;
+	margin: 20px 0;
+	display: block;
+    margin-left: -440px;
+
+	span {
+		background-color: #07c5fa;
+	}
+}
+.about__content {
+	font-family: 'Open Sans', sans-serif;
+	// height: 70vh;
+	border-left: 4px solid #07c5fa;
+	// text-align: start;
+	// margin: auto;
+	// width: 50vw;
+
+	p {
+		// height: 50px;
+		padding: 10px 15px;
+		font-size: 1.5rem;
+		text-align: start;
+	}
+}
